@@ -1,0 +1,14 @@
+.landing-page-container  {
+    text-align: center;
+    height: 100vh;
+    /*width: 100vw;*/
+    background-image: linear-gradient(195deg, rgba(66, 66, 74, 0.6), rgba(25, 25, 25, 0.6)),url('../../assets/img/singup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-page-container h1{
+    color: #fff;
+    font-size: 6em;
+}

@@ -1,0 +1,14 @@
+.main-layout-content{
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    min-height: 93vh;
+    background-color: #fff;
+
+}
+
+.main-layout{
+    display: flex;
+    margin-top: 2.7em;
+    
+}

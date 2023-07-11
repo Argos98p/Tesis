@@ -1,0 +1,25 @@
+.organizacion{
+    display: flex;
+    width: 100%;
+}
+.organization-content{
+    padding: 1em ;
+    flex:4 1;
+}
+
+.organizacion-cards-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-buscar-usuario{
+    margin: 1em !important;
+    border-radius: 1em;
+}
+
+.buscar-usuario-content{
+    border-radius: 0.6em;
+}

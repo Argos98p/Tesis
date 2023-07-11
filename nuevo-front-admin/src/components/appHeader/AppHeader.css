@@ -1,0 +1,121 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em ;
+    background-color: transparent;
+    position: sticky;
+}
+.header-bg{
+    background-color: rgb(251, 251, 255) !important;
+}
+.texto-negro{
+    color: #4f4f4f !important;
+}
+
+.blanco{
+    color: #fff;
+    text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:20;
+  }
+
+.header-item{
+    margin-left: 1em;
+}
+
+.header-item a{
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.header-item a:hover{
+    color: #40a9ff !important;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+.header-botones{
+    display: flex;
+}
+
+/*.app-header {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    background-color: #f0f2f5 !important;
+    background-color: transparent;
+    position:sticky;
+    top: 0;
+}
+
+.app-title {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+}
+
+.app-branding {
+    float: left;
+    color: #2996CF;
+    font-weight: bold;
+}
+
+.app-branding a{
+    color: #2996CF;
+}
+
+.app-options {
+    float: right;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+    color: #2996CF;
+}
+
+
+
+.app-nav ul li {
+    color: #2996CF;
+    list-style-type: none;
+    display: inline;
+    
+}
+
+
+
+.app-nav ul li a {
+    line-height: 60px;
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #2996CF;
+}
+
+
+.app-nav ul li a:hover {
+    color: #0f96f6;
+}
+
+.app-nav ul li a.active {
+    color: #0f96f6;
+}
+
+*/

@@ -1,0 +1,70 @@
+.signup-container {
+    text-align: center;
+    height: 100;
+    width: 100%;
+    background-image: linear-gradient(195deg, rgba(66, 66, 74, 0.6), rgba(25, 25, 25, 0.6)),url('../../assets/img/singup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.signup-content {
+    background: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 35px;
+    border-radius: 0.8em !important;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.social-btn {
+    margin-bottom: 15px;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.social-btn img {
+    height: 32px;
+    float: left;
+    margin-top: 10px;
+}
+
+.social-btn.google {
+    margin-top: 7px;
+}
+
+.social-btn.facebook img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+
+.login-link {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+}
+
+.signup-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.65);
+}

@@ -1,0 +1,90 @@
+{
+    "nombreApp" : "TurisUp",
+    "places" : [
+        {
+            "userId" : "1655135q115sdasd12",
+            "latitud" : "1.23456789",
+            "longitud": "9.87654321",
+            "location": "locacion nueva 1",
+            "link": "'https://photo620x400.mnstatic.com/1cfc308e08847a13626f5e2fbe1d9c1d/catedral-de-la-inmaculada-concepcion.jpg'",
+            "asfafds": "asdasd",
+            "sdafas": "asdasdasd",
+            "title":"funca6",
+            "label":"funca6",
+            "fn":"fn nuevo6"
+
+        },
+        {
+            "userId" : "222asd25wqe5222",
+            "latitud" : "5.23456789",
+            "longitud": "5.87654321",
+            "location": "locacion nueva 2",
+            "link": "link2222.com",
+            "asfafds": "asdasd 22",
+            "sdafas": "asdasdasd 22",
+            "title":"funca 222",
+            "label":"funca 22",
+            "fn":"fn nuevo 222"
+        },
+        {
+            "userId" : "123q45w46487954654",
+            "latitud" : "2.23456789",
+            "longitud": "5.87654321",
+            "location": "locacion nueva31",
+            "link": "link3333.com",
+            "asfafds": "asdasd 3",
+            "sdafas": "asdasdasd 3",
+            "title":"funca 3",
+            "label":"funca 3",
+            "fn":"fn nuevo 3"
+        },
+        {
+            "userId" : "16546581487954654",
+            "latitud" : "2.23456789",
+            "longitud": "5.87654321",
+            "location": "locacion 4",
+            "link": "link4444.com",
+            "asfafds": "asdasd 3",
+            "sdafas": "asdasdasd 3",
+            "title":"funca 3",
+            "label":"funca 3",
+            "fn":"fn nuevo 3"
+        },
+        {
+            "userId" : "55555w46487954654",
+            "latitud" : "2.23456789",
+            "longitud": "5.87654321",
+            "location": "locacion 5",
+            "link": "link55555.com",
+            "asfafds": "asdasd 3",
+            "sdafas": "asdasdasd 3",
+            "title":"funca 3",
+            "label":"funca 3",
+            "fn":"fn nuevo 3"
+        },
+        {
+            "userId" : "6666asd24651asd",
+            "latitud" : "2.23456789",
+            "longitud": "5.87654321",
+            "location": "locacion 6",
+            "link": "link6666.com",
+            "asfafds": "asdasd 3",
+            "sdafas": "asdasdasd 3",
+            "title":"funca 3",
+            "label":"funca 3",
+            "fn":"fn nuevo 3"
+        },
+        {
+            "userId" : "77777asd452asd45",
+            "latitud" : "2.23456789",
+            "longitud": "5.87654321",
+            "location": "locacion 7",
+            "link": "link777777.com",
+            "asfafds": "asdasd 3",
+            "sdafas": "asdasdasd 3",
+            "title":"funca 3",
+            "label":"funca 3",
+            "fn":"fn nuevo 3"
+        }
+    ]
+}

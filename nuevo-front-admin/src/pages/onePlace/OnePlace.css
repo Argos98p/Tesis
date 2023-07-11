@@ -1,0 +1,134 @@
+.one-place{
+    flex: 4;
+    background-color: #f5f8fb;
+    width: 100%;
+}
+
+
+.float-buttons{
+    width: 100%;
+    z-index: 10;
+    position: sticky;
+    top: 3.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -20px auto;
+    padding: 0;
+}
+.media-comentarios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.float-buttons>Button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.images-reel{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+.place-content{
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    margin: 1em 2em 0;
+    border-radius: 1em;
+    padding: 1em;
+}
+.place-content>button{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.place-content>h1{
+    color: #0f96f6;
+    margin: 0.5em 0;
+}
+.place-content>.subtitulo{
+    color: #0f96f6;
+    margin: 0.5em 0;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-radius: 8px;
+}
+.fb-video{
+    max-height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.scrolling-wrapper>.card {
+
+    display: inline-block;
+    margin-right: 1em;
+}
+.scrolling-wrapper>.card>img {
+    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+}
+.place-content>p{
+    text-align: left;
+}
+/*
+.images-reel img{
+    height: 300px;
+    max-height: 400px;
+}*/
+
+div::-webkit-scrollbar-track {
+box-shadow: inset 0 0 6px #f8fbff;
+border-radius: 5px;
+ }
+
+div::-webkit-scrollbar-thumb {
+background-color: #9fa9bd;
+border-radius: 5px;
+}
+div::-webkit-scrollbar {
+width: 0.5em;
+border-radius: 5px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
