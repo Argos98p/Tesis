@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_db?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&useSSL=False
+    username: root
+    password: rootroot
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+
+jwt:
+  secret: secret
